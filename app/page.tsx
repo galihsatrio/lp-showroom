@@ -150,7 +150,7 @@ export default function Home() {
                   href="https://wa.me/6282151140050"
                   className="w-full sm:w-auto border border-white/20 hover:border-accent-gold px-10 py-4 rounded-full font-bold text-lg transition-luxury text-center flex items-center justify-center gap-3"
                 >
-                  <span>CHATT WHATSAPP</span>
+                  <span>CHAT WHATSAPP</span>
                 </a>
               </div>
 
