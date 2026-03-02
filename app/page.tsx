@@ -90,12 +90,12 @@ export default function Home() {
       />
       {/* Navbar */}
       <nav
-        className={`fixed top-0 w-full z-50 transition-luxury border-none! ${scrolled ? "glass py-3" : "bg-transparent py-7"
+        className={`fixed top-0 w-full z-50 transition-luxury border-none! ${scrolled ? "glass py-3" : "bg-transparent py-5 md:py-7"
           }`}
       >
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <span className={`font-bold tracking-tighter text-gradient-gold transition-luxury duration-500 ${scrolled ? "text-xl" : "text-2xl"
+            <span className={`font-bold tracking-tighter text-gradient-gold transition-luxury duration-500 ${scrolled ? "text-lg md:text-xl" : "text-xl md:text-2xl"
               }`}>
               LION MOBILINDO
             </span>
@@ -117,7 +117,7 @@ export default function Home() {
 
       <main>
         {/* Hero Section */}
-        <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+        <section id="home" className="relative min-h-screen pt-24 md:pt-0 flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image
               src="/images/hero-bg.png"
